@@ -294,6 +294,17 @@ fun HomeScreen(
                 }
             }
 
+            // Sponsored Banner Ad
+            item {
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 20.dp, vertical = 10.dp)
+                ) {
+                    com.example.ui.components.AdBannerCard()
+                }
+            }
+
             // Popular Everyday Calculators Grid
             item {
                 Column(

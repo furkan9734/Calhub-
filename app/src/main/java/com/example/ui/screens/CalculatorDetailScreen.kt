@@ -177,6 +177,11 @@ fun CalculatorDetailScreen(
                 )
             }
 
+            // Sponsored Banner Ad
+            item {
+                com.example.ui.components.AdBannerCard()
+            }
+
             // Related Calculators
             if (relatedCalculators.isNotEmpty()) {
                 item {
