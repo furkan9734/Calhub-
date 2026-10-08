@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Orange / Gold Orbital Swoop (Upper Right behind calculator) -->
+    <path
+        android:pathData="M66,24 C80,24 88,34 86,48 C85,55 80,62 72,66 C75,60 76,52 75,46 C73,36 67,28 66,24 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="66"
+                android:startY="24"
+                android:endX="88"
+                android:endY="66"
+                android:type="linear">
+                <item android:color="#FFD54F" android:offset="0.0" />
+                <item android:color="#FF9800" android:offset="0.5" />
+                <item android:color="#E65100" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Calculator Body (Angled 3D Rounded Slate-Blue Body) -->
+    <!-- Drop Shadow / Base -->
+    <path
+        android:fillColor="#0A192F"
+        android:pathData="M35,21 L73,21 C77.4,21 81,24.6 81,29 L81,67 C81,71.4 77.4,75 73,75 L35,75 C30.6,75 27,71.4 27,67 L27,29 C27,24.6 30.6,21 35,21 Z" />
+    <!-- 3D Bevel Highlight -->
+    <path
+        android:pathData="M36,22 L72,22 C76,22 79,25 79,29 L79,66 C79,70 76,73 72,73 L36,73 C32,73 29,70 29,66 L29,29 C29,25 32,22 36,22 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="22"
+                android:endX="78"
+                android:endY="73"
+                android:type="linear">
+                <item android:color="#1E3A8A" android:offset="0.0" />
+                <item android:color="#172554" android:offset="0.6" />
+                <item android:color="#0F172A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Screen Display (Glossy dark screen) -->
+    <path
+        android:fillColor="#091321"
+        android:pathData="M34,26 L74,26 C75.1,26 76,26.9 76,28 L76,38 C76,39.1 75.1,40 74,40 L34,40 C32.9,40 32,39.1 32,38 L32,28 C32,26.9 32.9,26 34,26 Z" />
+
+    <!-- Screen Digits "123" -->
+    <!-- Digit 1 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,29 L55.5,28 L55.5,37 L54,37 Z" />
+    <!-- Digit 2 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M59,29 C59,28 62.5,28 62.5,30 C62.5,32 59,33.5 59,37 L63,37 L63,35.8 L60.8,35.8 C61.8,34.5 64,33 64,30.5 C64,28 61.5,27.2 59.5,27.8 Z" />
+    <!-- Digit 3 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M66,28 L71,28 L68.8,31.5 C70.5,31.7 71.5,32.8 71.5,34.5 C71.5,36.5 69.5,37.5 66.5,37 L66.5,35.5 C68.2,35.8 70,35.5 70,34.2 C70,33 68.8,32.5 67.2,32.5 L67.2,31.2 L69.5,29.3 L66,29.3 Z" />
+
+    <!-- Button 1: Plus (+) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M33,43 L50,43 C51.1,43 52,43.9 52,45 L52,53 C52,54.1 51.1,55 50,55 L33,55 C31.9,55 31,54.1 31,53 L31,45 C31,43.9 31.9,43 33,43 Z" />
+    <!-- + symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40.5,45.5 L42.5,45.5 L42.5,48 L45,48 L45,50 L42.5,50 L42.5,52.5 L40.5,52.5 L40.5,50 L38,50 L38,48 L40.5,48 Z" />
+
+    <!-- Button 2: Minus (-) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M56,43 L73,43 C74.1,43 75,43.9 75,45 L75,53 C75,54.1 74.1,55 73,55 L56,55 C54.9,55 54,54.1 54,53 L54,45 C54,43.9 54.9,43 56,43 Z" />
+    <!-- - symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60.5,48 L68.5,48 L68.5,50 L60.5,50 Z" />
+
+    <!-- Button 3: Multiply (×) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M33,58 L50,58 C51.1,58 52,58.9 52,60 L52,68 C52,69.1 51.1,70 50,70 L33,70 C31.9,70 31,69.1 31,68 L31,60 C31,58.9 31.9,58 33,58 Z" />
+    <!-- × symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M39.2,60.5 L41.5,64 L43.8,60.5 L45.5,61.8 L43.2,65.2 L45.5,68.5 L43.8,69.8 L41.5,66.5 L39.2,69.8 L37.5,68.5 L39.8,65.2 L37.5,61.8 Z" />
+
+    <!-- Button 4: Equals (=) Glowing Cyan Button -->
+    <path
+        android:pathData="M56,58 L73,58 C74.1,58 75,58.9 75,60 L75,68 C75,69.1 74.1,70 73,70 L56,70 C54.9,70 54,69.1 54,68 L54,60 C54,58.9 54.9,58 56,58 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="58"
+                android:endX="75"
+                android:endY="70"
+                android:type="linear">
+                <item android:color="#00E5FF" android:offset="0.0" />
+                <item android:color="#0284C7" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- = symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60.5,61.5 L68.5,61.5 L68.5,63.2 L60.5,63.2 Z M60.5,65.2 L68.5,65.2 L68.5,66.9 L60.5,66.9 Z" />
+
+    <!-- Glowing Cyan / Electric Blue Orbital Swoop (Wrapping around bottom and left) -->
+    <path
+        android:pathData="M20,62 C16,52 20,40 26,34 C25,44 26,56 36,65 C48,74 65,72 80,63 C86,59 88,57 88,57 C88,57 76,69 60,73 C42,77 26,74 20,62 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="16"
+                android:startY="34"
+                android:endX="88"
+                android:endY="75"
+                android:type="linear">
+                <item android:color="#00F5FF" android:offset="0.0" />
+                <item android:color="#00B0FF" android:offset="0.5" />
+                <item android:color="#0072FF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- CalHub Text at Bottom (between Y 77 and Y 91) -->
+    <!-- "C" in white -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M23,80.5 C21.5,82 21.5,86 23,87.5 C24.5,89 27,89 28.5,88.2 L28.5,86 C27.5,86.8 25.8,86.8 25,85.8 C24.2,84.8 24.2,83.2 25,82.2 C25.8,81.2 27.5,81.2 28.5,82 L28.5,79.8 C27,79 24.5,79 23,80.5 Z" />
+    <!-- "a" in white -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M31,82 C30,83 30,87.5 31.5,88.5 C32.5,89 34,89 35,88 L35,88.8 L37,88.8 L37,82.5 L35,82.5 L35,83.8 C34,82.5 32,81.5 31,82 Z M34.8,84.5 L34.8,86.8 C34.2,87.3 33,87.5 32.5,86.8 C32,86 32,84.8 32.5,84 C33,83.5 34.2,83.8 34.8,84.5 Z" />
+    <!-- "l" in white -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M39.5,78 L41.5,78 L41.5,88.8 L39.5,88.8 Z" />
+
+    <!-- "H" in cyan/blue -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M46,78 L48.2,78 L48.2,82.2 L52.8,82.2 L52.8,78 L55,78 L55,88.8 L52.8,88.8 L52.8,84.2 L48.2,84.2 L48.2,88.8 L46,88.8 Z" />
+    <!-- "u" in cyan/blue -->
+    <path
+        android:fillColor="#00D2FF"
+        android:pathData="M58,82 L60.2,82 L60.2,86.5 C60.2,87.2 60.8,87.6 61.5,87.6 C62.2,87.6 62.8,87.2 62.8,86.5 L62.8,82 L65,82 L65,86.8 C65,88.5 63.5,89.2 61.5,89.2 C59.5,89.2 58,88.5 58,86.8 Z" />
+    <!-- "b" in cyan/blue -->
+    <path
+        android:fillColor="#00B0FF"
+        android:pathData="M68,78 L70.2,78 L70.2,83.2 C71,82 72.8,81.5 74.2,82.2 C75.5,83 76,85 76,86 C76,87.5 75.2,88.8 73.8,89.2 C72.5,89.5 71,89 70.2,88 L70.2,88.8 L68,88.8 Z M70.2,86 C70.2,87.2 71.5,87.6 72.5,87.2 C73.5,86.8 73.8,85.5 73.8,84.8 C73.8,83.8 73.2,83.2 72.2,83.2 C71.2,83.2 70.2,84.2 70.2,86 Z" />
+
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "CalHub",
+  "description": "100+ smart calculators in one place: Finance, Health, Date & Time, Math, Converters, and Business tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
